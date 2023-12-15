@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto 1</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .product-info {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .price {
+            font-size: 1.5em;
+            color: #e44d26;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-info">
+        <h1>Producto 1</h1>
+        <img src="imagen-producto.jpg" alt="Imagen del producto 1" style="width: 100%; max-width: 400px; border-radius: 8px;">
+        <p>Descripción del producto 1. Este es un producto increíble que definitivamente querrás tener en tu colección.</p>
+        <p class="price">Precio: $100</p>
+        <!-- Otros detalles del producto -->
+    </div>
+</body>
+</html>
